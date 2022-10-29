@@ -8,7 +8,6 @@ from rest_framework.decorators import api_view
 from .serializers import FundSerializer
 from .risk_functions import get_yf_data, calc_liquidity, calc_performance
 from datetime import datetime
-# from django.contrib.auth import login, logout, authenticate
 
 
 def index(request):
